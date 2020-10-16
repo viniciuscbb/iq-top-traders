@@ -1,0 +1,99 @@
+.botao i{
+  font-size: 12px!important;
+  color: #fff!important;
+}
+
+.botao a{
+  width: 95px;
+  height: 30px;
+  font-size: 13px!important;
+  color: #fff!important;
+}
+
+.cartao{
+  display: flex;
+  justify-content: center;
+}
+
+.ad{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center!important;
+}
+
+.adbot{
+  width: 1271px;
+}
+
+.tops{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.tops .card{
+  width: 250px;
+  margin: 0 10px;
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista ul{
+  width: 30%;
+  font-weight: bold;
+  margin: 0 75px;
+  font-size: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.lista ul span{
+  font-size: 15px;
+}
+
+.botoes{
+  display: flex;
+  justify-content: center;
+}
+
+.botoes img{
+  margin: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .lista ul{
+    margin: 20px 0;
+    width: 90%;
+  }
+
+  .lista {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-icon-split{
+    font-size: 11px;
+    height: 50%;
+  }
+
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .btn-icon-split .icon{
+    display: flex;
+    align-items: center;
+  }
+
+  .botoes{
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+}
