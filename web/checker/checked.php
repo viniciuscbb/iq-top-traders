@@ -1,6 +1,6 @@
 <?php
-define('SITE_KEY', '6Lc8NM4ZAAAAALLV7RdAt593JRkJ1Z0OTuECRtAp');
-define('SECRET_KEY', '6Lc8NM4ZAAAAAByo_kWs-wvCFCuoYuW2q-oD7X4Y');
+define('SITE_KEY', '');
+define('SECRET_KEY', '');
 $wins   = '';
 $loss   = '';
 $assert = '';
